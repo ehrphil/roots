@@ -11,6 +11,7 @@
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
       <?php the_tags('Tags: <span class="entry-tags"><span class="tag">','</span>, <span class="tag">','</span></span>'); ?>
     </footer>
+    <hr/>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
 <?php endwhile; ?>
