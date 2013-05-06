@@ -2,9 +2,114 @@
    Base
    ========================================================================== */
 
-body { }
+body { 
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: white;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+}
+
+blockquote {
+	padding: 0 0 0 15px;
+	margin: 0 0 20px;
+	border-left: none;
+}
+
+blockquote p {
+  margin-bottom: 10;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.navbar .brand {
+  color: #0735C4;
+}
+
+a {
+  color: #0735C4;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #13A519;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+p.entry-meta {
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+ul.me {
+    margin-left: 5px;	
+    padding-left: 0px;
+}
+
+.me li {
+  list-style-type: none;
+  height: 24px;
+  line-height: 30px;
+  height: 30px;
+  padding-left: 32px;
+}
+
+li.twitter {
+  background: url('/assets/img/socialmediaicons-1.10.0/twitter-24x24.png') no-repeat left center;
+}
+
+li.github {
+  background: url('/assets/img/socialmediaicons-1.10.0/github-24x24.png') no-repeat left center;
+}
+
+li.linkedin {
+  background: url('/assets/img/socialmediaicons-1.10.0/linkedin-24x24.png') no-repeat left center;
+}
+
+li.xing {
+  background: url('/assets/img/socialmediaicons-1.10.0/xing-24x24.png') no-repeat left center;
+}
+
+li.gplus {
+  background: url('/assets/img/socialmediaicons-1.10.0/google+-24x24.png') no-repeat left center;
+}
+
+li.email {
+  background: url('/assets/img/socialmediaicons-1.10.0/email-24x24.png') no-repeat left center;
+}
+
+li.speakerdeck {
+  background: url('/assets/img/socialmediaicons-1.10.0/speakerdeck-24x24.png') no-repeat left center;
+}
 
 
+.widget_recent_entries li {
+    list-style-type: cambodian;	
+}
+
+.widget_archive ul {
+    margin-left: 5px;	
+    padding-left: 0px;
+}
+
+.widget_archive li {
+    list-style-type: none;	
+}
 
 /* =============================================================================
    Header
