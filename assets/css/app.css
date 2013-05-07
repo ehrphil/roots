@@ -18,7 +18,7 @@ h1 {
 }
 
 h1, h2, h3 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 blockquote {
@@ -29,7 +29,7 @@ blockquote {
 
 blockquote p {
   margin-bottom: 10;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: lighter;
 }
 
