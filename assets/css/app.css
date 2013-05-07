@@ -8,11 +8,12 @@ body {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.4em;
 }
 
 h1, h2, h3 {
@@ -27,7 +28,7 @@ blockquote {
 
 blockquote p {
   margin-bottom: 10;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: lighter;
 }
 
