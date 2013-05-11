@@ -2,23 +2,55 @@
    Base
    ========================================================================== */
 
-body { 
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: white;
+#terminal {
+  background: #002b36 url('/assets/img/noise.png') top left;
+  border-radius: 0.4em;
+  border: 1px solid #05232b;
+  margin-bottom: 2.1em;
+  padding: .8em 1em;
+  color: #93a1a1;
+  overflow: auto;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 1.1em;
 }
 
-p {
+code {
+	color: rgb(77, 77, 77);
+	font-size: 0.8em;
+}
+
+.thumbnail {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.thumbnail .caption {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+body { 
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+p, i, li {
   font-size: 1.2em;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-variant: normal;
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2em;
 }
 
 h1, h2, h3 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 blockquote {
@@ -29,8 +61,9 @@ blockquote {
 
 blockquote p {
   margin-bottom: 10;
-  font-size: 1.1em;
-  font-weight: lighter;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5em;
 }
 
 .navbar .brand {
@@ -101,12 +134,13 @@ li.speakerdeck {
 
 
 .widget_recent_entries li {
-    list-style-type: cambodian;	
+  list-style-type: hangul-consonant;	
+  font-size: 1.2em;
 }
 
 .widget_archive ul {
-    margin-left: 5px;	
-    padding-left: 0px;
+  margin-left: 5px;	
+  padding-left: 0px;
 }
 
 .widget_archive li {
