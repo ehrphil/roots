@@ -5,8 +5,10 @@
   </header>
   <div class="entry-summary">
     <?php the_excerpt(); ?>
+    <p><a href="<?php the_permalink(); ?>">Continue reading →</a></p>
   </div>
   <footer>
-    <?php the_tags('Tags: <span class="entry-tags"><spain class="tag">','</span>, <span class="tag">','</span></span>'); ?>
+      <?php the_tags('Tags: <span class="entry-tags"><spain class="tag">','</span>, <span class="tag">','</span></span>'); ?>
   </footer>
+  <br/>
 </article>
