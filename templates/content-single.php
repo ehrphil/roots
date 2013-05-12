@@ -8,7 +8,9 @@
       <?php the_content(); ?>
     </div>
     <footer>
-      <br/><br/>
+      <?php the_tags('Tags: <span class="entry-tags"><span class="tag">','</span>, <span class="tag">','</span></span>'); ?>
+      <br/>
+      <br/>
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php get_permalink(); ?>" data-text="<?php echo get_the_title(); ?>"
 data-via="rafacm">Tweet</a>
 <script>!function(d,s,id){var
@@ -29,9 +31,7 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>      
-<?php 
-wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
-      <?php the_tags('Tags: <span class="entry-tags"><span class="tag">','</span>, <span class="tag">','</span></span>'); ?>
+<?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
     </footer>
     <hr/>
     <?php comments_template('/templates/comments.php'); ?>
