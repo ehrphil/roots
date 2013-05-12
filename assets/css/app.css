@@ -206,9 +206,22 @@ li.speakerdeck {
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
 
-.aligncenter { display: block; margin: 0 auto; }
-.alignleft { float: left; }
-.alignright { float: right; }
+.aligncenter { 
+  display: block; 
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.alignleft { 
+  float: left; 
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.alignright { 
+  float: right; 
+  margin-left: 15px;
+  margin-right: 0px;
+}
 figure.alignnone { margin-left: 0; margin-right: 0; }
 
 
