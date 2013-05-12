@@ -22,12 +22,6 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
 <script type="IN/Share" data-url="<?php get_permalink(); ?>" data-counter="right"></script>
 &nbsp;&nbsp;<!-- Place this tag where you want the share button to render. -->
 <div class="g-plus" data-action="share" data-height="20"></div>
-<script type="text/javascript">var dzone_url = '<?php get_permalink(); ?>';</script>
-<script type="text/javascript">var dzone_title = '<?php echo get_the_title(); ?>';</script>
-<script type="text/javascript">var dzone_blurb = '<?php echo the_excerpt(); ?>';</script>
-<script type="text/javascript">var dzone_style = '2';</script>
-<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script>
-
 <!-- Place this tag after the last share tag. -->
 <script type="text/javascript">
   (function() {
