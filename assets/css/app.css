@@ -141,6 +141,7 @@ li.speakerdeck {
 }
 
 .widget_archive ul {
+  font-size: 1em;
   margin-left: 5px;	
   padding-left: 0px;
 }
