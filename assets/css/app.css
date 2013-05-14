@@ -45,6 +45,12 @@ p, i, li {
   font-variant: normal;
 }
 
+.content .row-fluid p a, .entry-content a {
+  text-decoration: none; 
+  border-bottom:1px dotted grey;
+  color: black;
+}
+
 .entry-content code {
   white-space: normal;
 }
