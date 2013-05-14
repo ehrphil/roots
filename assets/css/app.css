@@ -16,7 +16,7 @@
 
 code {
 	color: rgb(77, 77, 77);
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 .thumbnail {
@@ -43,6 +43,10 @@ p, i, li {
   line-height: 1.5em;
   font-style: normal;
   font-variant: normal;
+}
+
+.entry-content code {
+  white-space: normal;
 }
 
 h1 {
